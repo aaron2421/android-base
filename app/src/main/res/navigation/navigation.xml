@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/navigation_c">
+
+    <fragment
+        android:id="@+id/navigation_c"
+        android:name="com.airasoft.baseproject.c.C"
+        android:label="@string/c"
+        tools:layout="@layout/c_fragment" />
+    <fragment
+        android:id="@+id/navigation_b"
+        android:name="com.airasoft.baseproject.b.B"
+        android:label="@string/b"
+        tools:layout="@layout/b_fragment" />
+    <fragment
+        android:id="@+id/navigation_a"
+        android:name="com.airasoft.baseproject.a.A"
+        android:label="@string/a"
+        tools:layout="@layout/a_fragment" />
+</navigation>
